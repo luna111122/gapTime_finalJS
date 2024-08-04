@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+</head>
+<body>
+    <div class="document">
+        <div class="top">
+            
+            <img id="back" src="image/weui_back-filled.png">
+            <div class="top_2">
+                <img src="image/Frame 118.png">
+            </div>
+            <form class="search">
+                <img src="image/Vector.png">
+                <span>검색</span>
+            </form>
+            <img class="dm" src="image/dm.png">
+            
+        </div>
+
+        <div class="down">
+            <div class="catagories">
+                <div class="left-catagories">
+                    <div class="tags">
+                        <div class="study-group catagory">
+                            <img class="study" src="image/mdi_pencil.png">
+                            <div class="study-word">
+                                스터디
+                            </div>
+                        </div>
+                        <div class="health-group catagory">
+                            <img class="health" src="image/health.png">
+                            <div class="health-word">
+                                운동
+                            </div>
+                        </div>
+                        <div class="calture-group catagory">
+                            <img class="calture" src="image/Vector (1).png">
+                            <div class="calture">
+                                문화생활
+                            </div>
+                        </div>
+                        <div class="dinner-group catagory">
+                            <img class="dinner" src="image/mdi_pencil (1).png">
+                            <div class="dinner">
+                                식사
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="right-catagories">
+                    <div class="group-time">
+                        <div class="input-box input-box-date"> <!-- div에 css먹여야지 input박스가 변경됨, 대신 이름뒤에 img처럼 input이라고 붙여야함-->
+                            <input type="datetime-local" name="date-time"> <!--시간 날짜입력-->
+                        </div>
+                        <div class="date-time">
+                            <img  src="image/date-time.png">
+                        </div>
+                        <div class="input-box input-box-group">
+                            <input type="text" name="date-time"><!--인원수입력-->
+                        </div>
+                        <div class="group109">
+                            <img src="image/Group 109.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box"> 
+                <div class="title-box content-input">
+                    <input placeholder="제목을 입력하시오." type="text" name="title">
+                </div>
+                <div class="contents-box content-input">
+                    <input placeholder="내용을 입력하시오." type="text" name="content">
+                </div>
+            </div>
+
+            <div class="right-side-down">
+                <button class="complete-button">
+                    완료
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <script src="write.js">
+        
+    </script>
+</body>
+
+</html>
+
+<!-- 
+상단 태그들 만들어야함
+벡엔드에 전달할 form 태그 작성법
+-->
